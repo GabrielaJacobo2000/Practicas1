@@ -1,0 +1,98 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.bandera{
+    width: 330px;
+    height: 220px;
+    display: flex;
+}
+
+.verde,.blanco ,.rojo {
+    width: 110px;
+    height: 100%;}
+.verde{ 
+    background-color: green;
+}
+.blanco { background-color: white;
+display: flex; justify-content: center;
+align-items: center;}
+
+
+.rojo { background-color:red;}
+.escudo {width: 105px;
+}
+
+.osito{
+    width: 100px;
+    height: 150px;
+}
+
+.cabeza{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(206, 122,35);
+    border-radius: 50%; /*Hacer redondo*/
+    position: relative;
+}
+
+.oreja{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(206, 112, 35);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px
+}
+
+.izquierda{
+    left: 10px; /*Mover hacia..*/
+}
+
+.derecha{
+    right: 10px;
+}
+
+.cuerpo{
+    width: 80px;
+    height: 90px;
+    background-color: rgb(206, 112, 35);
+    border-radius: 50%;
+
+}
+.ojo{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 50%;
+    position: absolute;
+    top: 30px
+}
+.izquierdo{
+    left: 20px;
+}
+
+.derecho{
+    right: 20px;
+}
+
+.nariz{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(184, 28, 28);
+    border-radius: 50%;
+    position:absolute;
+top: 40px; right: 18px;left: 38px;}
+
+
+.boca {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(77, 75, 202);
+    border-radius: 50%;
+    position:absolute;
+    top: 70%;right: 18px;left: 38px;}
+
+
